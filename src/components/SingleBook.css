@@ -1,0 +1,58 @@
+.border-danger {
+    border: 2px solid red;
+  }
+.card-title {
+  
+    overflow: hidden;
+ 
+    white-space: nowrap;
+}  
+.card-img-top {
+height:25rem;
+    object-fit: contain;
+}
+.card {
+  border:none;
+}
+.book-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bookCard {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bookCardLight {
+  background-color: #fff;
+  color: #121212 !important;
+  border: 1px solid #ddd;
+}
+
+.bookCardDark {
+  background-color: #121212 !important;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.bookCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.bookCard .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.book-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book-card.selected {
+  border-color: red;
+  box-shadow: 0 0 10px red;
+}

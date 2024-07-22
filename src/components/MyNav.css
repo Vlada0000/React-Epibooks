@@ -1,0 +1,10 @@
+
+.searchBar.dark::placeholder {
+    color: #ffffff; 
+  }
+  
+
+  .searchBar.light::placeholder {
+    color:#121212; 
+  }
+  
